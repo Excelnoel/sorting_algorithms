@@ -1,6 +1,7 @@
 #include "sort.h"
 
-void merge_subarr(int *subarr, int *buff, size_t front, size_t mid, size_t back);
+void merge_subarr
+(int *subarr, int *buff, size_t front, size_t mid, size_t back);
 void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
 void merge_sort(int *array, size_t size);
 
@@ -8,11 +9,12 @@ void merge_sort(int *array, size_t size);
  * merge_subarr - Sorts a subarray of integers.
  * @subarr: A subarray of an array of integers to sort.
  * @buff: stores the sorted subarray.
- * @front: The front index. 
+ * @front: The front index.
  * @mid: The middle index.
  * @back: The back index.
  */
-void merge_subarr(int *subarr, int *buff, size_t front, size_t mid, size_t back)
+void (merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
+		size_t back)
 {
 	size_t i, j, k = 0;
 
